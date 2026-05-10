@@ -19,6 +19,7 @@ export const siteContent = {
     "Taking things apart",
     "Learning new skills",
     "Hanging out with friends",
+    "Modding gaming consoles",
     "Fencing",
     "Cooking",
     "Biking",
@@ -31,22 +32,29 @@ export const siteContent = {
   // Add, edit, or remove cards here.
   projects: [
     {
-      title: "Project One",
+      title: "Robotic arm",
       description:
-        "A clean starter project. Replace this text with a short explanation of what you built and why it matters.",
-      image: "/images/projects/project-1.svg",
+        "My robotic arm is controlled with a computer mouse and powered by an Arduino Uno.",
+      image: "/images/projects/roboarm.jpeg",
     },
     {
-      title: "Project Two",
+      title: "Diy Heelys",
       description:
-        "Another project card with room for a quick summary. Keep it simple and personal.",
-      image: "/images/projects/project-2.svg",
+        "Cut into an old pair of shoes and placed in a 3d printed chasis for the wheel.",
+      image: "/images/projects/heelys.jpeg",
     },
     {
-      title: "Project Three",
+      title: "pwnagotchi",
       description:
-        "Use this to highlight your favorite build, experiment, or idea.",
-      image: "/images/projects/project-3.svg",
+        "Pwnagotchi is a tool that utilizes bettercap and operates on a Raspberry Pi to monitor its surrounding Wi-Fi environment, aiming to capture crackable WPA key material.",
+      image: "/images/projects/pwnpi.jpeg",
     },
+    {
+      title: "Gokart",
+      description:
+        "I am currently repairing this gokart from Facebook Marketplace.",
+      image: "/images/projects/gokart.jpeg",
+    },
+    
   ] as Project[],
 };

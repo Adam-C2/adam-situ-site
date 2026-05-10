@@ -9,7 +9,7 @@ export default function Home() {
       <main className="mx-auto max-w-3xl px-6 py-16 sm:py-24">
         <section id="hero" className="scroll-mt-20 py-12">
           <p className="text-sm uppercase tracking-[0.2em] text-muted">
-            Personal Site
+            Welcome!
           </p>
           <h1 className="mt-4 text-4xl font-semibold tracking-tight text-ink sm:text-5xl">
             {siteContent.name}
@@ -27,7 +27,7 @@ export default function Home() {
         <section id="projects" className="scroll-mt-20 py-12">
           <h2 className="text-2xl font-medium text-ink">Projects</h2>
           <p className="mt-3 text-sm text-muted">
-            Edit project cards in <code>src/content/siteContent.ts</code>.
+            Take a look!
           </p>
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
             {siteContent.projects.map((project) => (
