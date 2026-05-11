@@ -55,6 +55,24 @@ export const siteContent = {
         "I am currently repairing this go-kart from Facebook Marketplace.",
       image: "/images/projects/gokart.jpeg",
     },
+    {
+      title: "Hover Board Attachment",
+      description:
+        "Converts my hover board into a drivable Go-kart.",
+      image: "/images/projects/hover.jpeg",
+    },
+    {
+      title: "Modded PSP",
+      description:
+        "Installed custom firmware and games onto this old Playstation Portable.",
+      image: "/images/projects/psp.jpeg",
+    },
+    {
+      title: "Air Cannon",
+      description:
+        "Made from PVC pipe, a switch valve, and a bike air pump valve.",
+      image: "/images/projects/cannon.jpeg",
+    },
     
   ] as Project[],
 };
