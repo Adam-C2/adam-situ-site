@@ -12,8 +12,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" style={{ colorScheme: "light" }}>
+      {/* Inline baseline so the page stays readable if the CSS file fails to load (cache, network, preview tools). */}
+      <body
+        style={{
+          margin: 0,
+          minHeight: "100vh",
+          backgroundColor: "#fffcf2",
+          color: "#111827",
+          fontFamily:
+            'Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }

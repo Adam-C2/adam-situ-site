@@ -50,9 +50,9 @@ export const siteContent = {
       image: "/images/projects/pwnpi.jpeg",
     },
     {
-      title: "Gokart",
+      title: "Go-kart",
       description:
-        "I am currently repairing this gokart from Facebook Marketplace.",
+        "I am currently repairing this go-kart from Facebook Marketplace.",
       image: "/images/projects/gokart.jpeg",
     },
     

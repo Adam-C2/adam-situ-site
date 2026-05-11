@@ -1,4 +1,4 @@
-import { ProjectCard } from "@/components/ProjectCard";
+import { ProjectCarousel } from "@/components/ProjectCarousel";
 import { SectionNav } from "@/components/SectionNav";
 import { siteContent } from "@/content/siteContent";
 
@@ -29,11 +29,8 @@ export default function Home() {
           <p className="mt-3 text-sm text-muted">
             Take a look!
           </p>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {siteContent.projects.map((project) => (
-              <ProjectCard key={project.title} project={project} />
-            ))}
-          </div>
+          {/* Slider + carousel: edit projects in src/content/siteContent.ts */}
+          <ProjectCarousel projects={siteContent.projects} />
         </section>
 
         <section id="likes" className="scroll-mt-20 py-12">

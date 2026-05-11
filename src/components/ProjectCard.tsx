@@ -3,11 +3,15 @@ import type { Project } from "@/content/siteContent";
 
 type ProjectCardProps = {
   project: Project;
+  /** Extra classes (e.g. carousel width + shrink-0) */
+  className?: string;
 };
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, className = "" }: ProjectCardProps) {
   return (
-    <article className="group rounded-2xl border border-black/5 bg-white p-5 transition-shadow hover:shadow-sm">
+    <article
+      className={`group rounded-2xl border border-black/5 bg-white p-5 transition-shadow hover:shadow-sm ${className}`}
+    >
       <div className="mb-4 overflow-hidden rounded-xl bg-gray-100">
         {/* Replace image paths in src/content/siteContent.ts */}
         <Image
